@@ -1,1 +1,8 @@
 # Drone-Management-System
+This is little project finished in a software development course, which give the exposure to the whole software development cycles to new learners. This project is all implemented using Python language in Eclipse IDE, and it involves couple of processes including requirement gathering, user story analysis, software design and modelling, GUI programming, database design and implementation, unit and integrate testing, and automated builds.
+
+## Getting started
+There are three Python files containing the main codes of this simple system, "app.py" file is responsible for the graphic user interface and database connections, while the other two files define the particular functionalities of Drone and Operator classes respectively. Two sql files contains some codes to initial database tables and insert data entries, they could be copied into any ralation database systems to create the database used in this project. There are as well two pictures containing the database design and UML of this little project. 
+
+### Prerequisites
+In order to run the projects, you could create a new python project in Eclipse and set up interpreter to 3.6 or 3.7 as well as correct mysql connector path, and simply drag all three python codes under the same file. There is only one place where should require special attention is database creation and connection. I suggest that installing MySQL server and MySQL workbench into your local machines, create a new database called "DroneManagement" using existed sql files and launch the server on the local host. Please remeber modify the password to your owns at the very end codes of "app.py" file.
