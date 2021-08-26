@@ -68,4 +68,6 @@ class DroneStore(object):
         cursor.execute(query, (drone.name, drone.class_type, drone.rescue, drone.id))
         cursor.close()
         self._conn.commit()
+        
+    # New comments
     
