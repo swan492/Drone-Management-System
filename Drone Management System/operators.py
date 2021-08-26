@@ -68,6 +68,13 @@ class OperatorStore(object):
         return operator
         cursor.close()
         
+    def __init__(self, name, class_type=1, rescue=False):
+        self.id = 0
+        self.name = name
+        self.class_type = class_type
+        self.rescue = rescue
+        self.operator = None
+    
     """ The following function is used to update a operator in the database"""
     def save(self, operator):
         """ Update the operator to the database. """
